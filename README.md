@@ -30,15 +30,17 @@ Then go to google sheet and create a new one. Click the Share button and add you
 
 1. Clone this repository
 ```bash
-git clone xxx
+git clone https://github.com/paundraP/Upload-to-Spreadsheet.git
 ```
 2. Go inside the folder
 ```bash
-cd xxx
+cd Upload-to-Spreadsheet
 ```
 3. Install the package dependency for this project
 ```bash 
-go mod tidy
+go get github.com/xuri/excelize/v2
+go get google.golang.org/api/option
+go get google.golang.org/api/sheets/v4
 ```
 4. Copy the .env.example and add your spreadsheet id from the link you've copied before.
 
