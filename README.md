@@ -10,7 +10,7 @@ First, you need to set up your Google Sheet API access. If you do not know how t
 
 2. Create a new project or use your existing project
 
-3. Go to APIs & Services -> Enable APIs & Services -> Search for and enable the Google Sheets API.
+3. Go to APIs & Services -> Enable APIs & Services -> enable the Google Sheets API.
 
 4. Go to Credentials and Enable it for Service Account, follow the step to create it.
 
